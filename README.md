@@ -1,5 +1,7 @@
 # REST API with Express.js
 Learning server side development with node.js + express.js
+Creating this API will use oficial documentation as much as possible.
+In total blockage will try StackOverflow etc.  
 
 # To do list
 ✅ Initialize repository  
