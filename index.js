@@ -1,11 +1,17 @@
 const express = require('express')
 const multer = require('multer')
+const mkdirp = require('mkdirp')
 const port = 3000
 const app = express()
 
+
+const uploadPath = './uploads'
+
+mkdirp.sync(uploadPath)
+
 const storage = multer.diskStorage({
     destination: (req, file, callback) => {
-        callback(null, './uploads')
+        callback(null, uploadPath)
     },
     filename: (req, file, callback) => {
         callback(null, file.originalname)
