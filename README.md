@@ -5,7 +5,7 @@ In total blockage will try StackOverflow etc.
 
 # To do list
 ✅ Initialize repository  
-🔲 Create first dummy endpoint  
+✅ Create first dummy endpoint  
 🔲 Connect DB to the project  
 🔲 GET endpoint to retrieve data from DB  
 🔲 POST endpoint to save data to DB  
